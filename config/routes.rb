@@ -1,5 +1,5 @@
 Myrottenpotatoes::Application.routes.draw do
-  resources :moview
+  resources :movies
   root :to => redirect('/movies')
 end
 
